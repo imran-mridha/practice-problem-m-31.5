@@ -31,11 +31,9 @@ const plusMulti = (num1,num2)=> {
   const plus1 = num1 + 2;
   const plus2 = num2 + 2;
   const multi = plus1 * plus2;
-  // console.log(plus1)
-  // console.log(plus2)
-  // console.log(multi)
+  return multi;
 }
-plusMulti(2,3)
+console.log(plusMulti(2,3))
 // Practice Problem -- 5
 const numbers = [20,30,40,50,60,7,70,90,100];
 const nums5Multi = numbers.map(num => num*5)
