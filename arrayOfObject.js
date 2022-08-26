@@ -245,19 +245,3 @@ complexObject.map(persons => {
   `
   console.log(person6Info)
 })
-
-
-
-
-
-
-
-
-
-
-// complexObject.map(persons=>{
-//   for(let person in persons){
-//     // const {name,address,phone,company} = (persons[person]);
-//     // console.log(name,address.zipcode,phone,company.name)
-//   }
-// })
